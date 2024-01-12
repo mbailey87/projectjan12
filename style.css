@@ -1,5 +1,5 @@
 body, h1, h2, h3, p {
-    background-color: blueviolet;
+    background-color: rgb(206, 179, 177);
     margin: 0;
     padding: 0;
 }
@@ -13,14 +13,22 @@ h2 {
     width: 100%;
     margin-left: 5%;
     padding: 1%;
+    color: brown;
 }
 h3 {
     width: 100%;
     padding: 2% 2% 2% 2%;
+    color: aqua;
 }
 p {
     display: flex;
     width: 100%;
-    justify-content: end;
+    justify-content: center;
     font-size: xx-large;
+}
+.p2 {
+    height: 100%;
+    padding: 3%;
+    font-size: 60px;
+    text-wrap: wrap;
 }
