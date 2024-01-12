@@ -21,4 +21,6 @@ h3 {
 p {
     display: flex;
     width: 100%;
+    justify-content: end;
+    font-size: xx-large;
 }
