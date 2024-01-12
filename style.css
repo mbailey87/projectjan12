@@ -1,3 +1,24 @@
-body {
+body, h1, h2, h3, p {
     background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+   width: 100%;
+   background-color: cornflowerblue;
+   padding: 5px;
+   margin: 0;
+}
+h2 {
+    width: 100%;
+    margin-left: 5%;
+    padding: 1%;
+}
+h3 {
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+}
+p {
+    display: flex;
+    width: 100%;
 }
